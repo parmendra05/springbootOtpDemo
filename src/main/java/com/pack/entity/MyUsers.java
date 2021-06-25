@@ -10,7 +10,7 @@ public class MyUsers {
 	private String name;
 	private String password;
 	private String role;
-	
+	private String mobile;
 	
 	public String getEmail() {
 		return email;
@@ -35,6 +35,12 @@ public class MyUsers {
 	}
 	public void setRole(String role) {
 		this.role = role;
+	}
+	public String getMobile() {
+		return mobile;
+	}
+	public void setMobile(String mobile) {
+		this.mobile = mobile;
 	}
 
 	

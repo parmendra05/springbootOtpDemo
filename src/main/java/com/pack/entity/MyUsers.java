@@ -12,6 +12,23 @@ public class MyUsers {
 	private String role;
 	private String mobile;
 	
+	public MyUsers() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+	public MyUsers(String email, String name, String password, String role, String mobile) {
+		super();
+		this.email = email;
+		this.name = name;
+		this.password = password;
+		this.role = role;
+		this.mobile = mobile;
+	}
+
+
+
 	public String getEmail() {
 		return email;
 	}
